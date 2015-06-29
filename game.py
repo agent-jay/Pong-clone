@@ -1,22 +1,3 @@
-"""
-Bong! by agentJay aka Siddarth Jay
-This is my first game.
- Possible improvements:
- 1 use image instead of drawing grid( which is more intensive?)
- 2 create a list of points at the beginning and use lines() instead of line()
- 3DONE instead of divide , multiply with calculated val of 1/x
- 4DONE consider breaking program into multiple files. eg. config, logic, etc..
- 5 ball doesn't even touch the paddle before bouncing. problem at high speed. find workaround. does it even exist
- 6game becomes too slow, update only locations neccessary not entire screen
- 7NOTNEEDED use      self.rect = self.image.get_rect() instead of passing DISPLAYSURF
- 8consider breaking update into 2. handle event. then update. not handle event in update
- 9use 2 render functions? is it worth it? one renders for the first time. the other is in pt 8
- 10next project definitely use sprite class- will  make things simpler
- 11DONEvery imp- simultaneous key input doesnt work. use get pressed instead? 
- 12stop speed increase beyond a point. cuz after a while becomes so fast that for some reason point is awarded. or scale speed according to a function
-    Important note: I just realised that objects in python are mutable.
-    This is the reason that rectangles that are modified in a function still retain changes outside 
-"""
 
 import pygame, sys
 from pygame.locals import *
