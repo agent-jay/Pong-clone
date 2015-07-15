@@ -1,9 +1,6 @@
 # Pong-clone
 My first game- clone of Atari Pong
 
-
-This is my first game.
-
 Possible improvements:
  1. Use image instead of drawing grid( which is more intensive?)
  2. Create a list of points at the beginning and use lines() instead of line()
