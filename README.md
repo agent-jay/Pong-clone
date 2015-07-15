@@ -18,5 +18,3 @@ Possible improvements:
  11. Very imp- simultaneous key input doesnt work. use get pressed instead? DONE
  12. Stop speed increase beyond a point. After a while, the ball becomes so fast, points are awarded for no reason
     
-Important note: I just realised that objects in python are mutable.
-This is the reason that rectangles that are modified in a function still retain changes outside 
